@@ -1,0 +1,58 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.random-number-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.random-number-card-container {
+  background-color: #ffffff;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+  padding: 20px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.random-number-heading {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+}
+.random-number-description {
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 15px;
+  text-align: center;
+}
+.random-number-button {
+  border: 0px;
+  border-radius: 8px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+}
+.random-number-output {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 700;
+}
